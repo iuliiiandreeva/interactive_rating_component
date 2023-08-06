@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: Overpass,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  background-color: black;
+  color: var(--light-grey);
+}
+

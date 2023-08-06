@@ -1,0 +1,88 @@
+.card-start {
+    width: fit-content;
+    background: var(--gradient);
+    border-radius: 1.5rem;
+    margin: auto;
+    padding: 25px;
+}
+
+.card-start .star {
+    padding: 0.7rem;
+    background-color: var(--dark-blue);
+    border-radius: 1.3rem;
+}
+
+.card-start h1 {
+    color: var(--white);
+}
+
+.card-start p {
+    width: 20vw;
+}
+
+@media (max-width: 500px){
+    .card-start p {
+        width: 75vw;
+    }
+
+}
+
+/* Buttons */
+
+button {
+    text-decoration: none;
+    border: none;
+}
+
+.number-btns {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 25px;
+}
+
+.number-btns button {
+    cursor: pointer;
+    padding: 1rem 1.2rem;
+    border-radius: 50%;
+    color: inherit;
+    font-weight: 700;
+    background: var(--dark-blue);
+}
+
+.number-btns button:hover {
+    background-color: var(--orange);
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.number-btns button:focus {
+    background-color: var(--light-grey);
+    color: var(--white);
+}
+
+.number-btns button:active {
+    background-color: var(--light-grey);
+    color: var(--white);
+}
+
+.submit {
+    cursor: pointer;
+    width: 100%;
+    padding: 15px 10px;
+    margin-top: 25px;
+    border-radius: 1.2rem;
+    background-color: var(--orange);
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.submit:hover {
+    background-color: var(--white);
+    color: var(--orange);
+    transition: 0.3s;
+}

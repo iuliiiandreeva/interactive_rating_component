@@ -1,0 +1,16 @@
+:root {
+    --orange: hsl(25, 97%, 53%);
+
+
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: #7c8798;
+    --dark-blue: #252d37;
+    --very-dark-blue: #121417;
+
+    /* gradient */
+
+    --gradient: linear-gradient(to right bottom, #252d32, #20272b, #1c2024, #171a1e, #121417);
+
+
+}

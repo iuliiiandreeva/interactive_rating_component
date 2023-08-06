@@ -1,0 +1,45 @@
+.card-finished {
+    width: fit-content;
+    background: var(--gradient);
+    border-radius: 1.5rem;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.illustration {
+    margin-top: 10px;
+
+}
+
+.selected-rating {
+    width: fit-content;
+    background: var(--dark-blue);
+    padding: .3rem 1rem;
+    border-radius: 1rem;
+    color: var(--orange);
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.card-finished h1 {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.card-finished p {
+    width: 20vw;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 500px){
+    .card-finished p {
+        width: 75vw;
+    }
+
+}
